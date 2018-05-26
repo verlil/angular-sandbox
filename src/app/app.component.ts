@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  data1: string;
+
+  onDataUpdate(data2){
+    this.data1 = data2;
+  }
 }
